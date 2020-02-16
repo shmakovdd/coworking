@@ -70,7 +70,6 @@
     font-weight: bold;
     color: #8ad0f6;
     text-transform: uppercase;
-    z-index: 3;
     opacity: 1;
     transition: .5s;
 }
