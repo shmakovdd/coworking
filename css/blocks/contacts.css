@@ -72,7 +72,7 @@
 .contacts__dropdown-menu:before {
     content: '';
     bottom: 100%;
-    left: 83%;
+    left: 83.4%;
     position: absolute;
     border: 13px solid transparent;
     border-bottom: 9px solid #fff;
