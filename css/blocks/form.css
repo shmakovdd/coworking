@@ -122,6 +122,11 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
+    transition: .3s;
+}
+
+.form__button:hover {
+    background-color: #cb2376;
 }
 
 .form {
