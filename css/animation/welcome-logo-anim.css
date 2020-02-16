@@ -1,0 +1,21 @@
+@keyframes welcome-logo-anim {
+    from {
+        transform:  scale(0.1);
+    }
+
+    40% {
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    70% {
+        transform: rotate(-3deg);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

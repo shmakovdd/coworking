@@ -1,0 +1,19 @@
+.footer {
+    background-color: #2b2b40;
+    color: white;
+}
+
+.footer--container {
+    padding: 12px 18px 8px 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__text {
+    max-width: 24%;
+    line-height: 1.2;
+}
+
+.footer__text a {
+    text-decoration: underline;
+}

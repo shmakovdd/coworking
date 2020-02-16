@@ -1,0 +1,13 @@
+.page-about-content__left {
+    width: 23%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.page-about-content {
+    display: flex;
+}
+
+.page-about-content__right {
+    width: 70%;
+}

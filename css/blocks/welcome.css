@@ -1,0 +1,46 @@
+@import url('../animation/welcome-logo-anim.css');
+
+.auth-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/intro-logo-back.png) center center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    opacity: 0;
+    animation: welcome-logo-anim .8s 1.5s forwards;
+}
+
+.welcome__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome__img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.welcome__link {
+    padding: 14px 22px;
+    text-transform: uppercase;
+    color: #ec1e79;
+    font-weight: bold;
+    border: 3px solid currentColor;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.welcome__link:hover {
+    color: #fff;
+    background-color: #ec1e79;
+    border-color: #ec1e79;
+}

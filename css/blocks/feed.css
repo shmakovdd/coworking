@@ -1,0 +1,11 @@
+.feed__title {
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin-bottom: 66px;
+}
+
+.feed {
+    margin-bottom: 30px;
+}

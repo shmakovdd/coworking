@@ -1,0 +1,18 @@
+.page-reviews-content__left {
+    width: 23%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.page-reviews-content {
+    display: flex;
+    margin-top: 45px;
+}
+
+.page-reviews-content__right {
+    width: 70%;
+}
+
+.page-reviews-content__right .sidebar {
+    margin-bottom: 12px;
+}

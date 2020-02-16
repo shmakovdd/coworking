@@ -1,0 +1,15 @@
+.support {
+    padding: 20px 9% 31px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    line-height: 1.6;
+    background: url(../../images/support/exclamations.png) center center #2b2b40;
+    margin-bottom: 28px;
+}
+
+.support__span {
+    display: inline-block;
+    color: #cb2376;
+    font-weight: bold;
+}

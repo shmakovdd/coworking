@@ -1,0 +1,79 @@
+.contacts {
+    text-align: right;
+    margin-right: 17px;
+}
+
+.contacts__tel {
+    font-family: gothampro;
+    font-size: 21px;
+    font-weight: bold;
+    display: block;
+}
+
+.contacts__workhours {
+    color: #cb2376;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+.contacts__dropdown {
+    position: relative;
+}
+
+.contacts__dropdown:hover .contacts__workhours {
+    color: #6e9fc0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.contacts__dropdown:hover .contacts__dropdown-menu {
+    right: 0;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.contacts__dropdown:hover {
+    cursor: pointer;
+}
+
+.contacts__dropdown-menu {
+    position: absolute;
+    text-align: left;
+    margin-top: 10px;
+    right: -9999px;
+    font-weight: bold;
+    border-radius: 3px 0 3px 3px;
+    box-shadow: 2.5px 4.33px 2.5px rgba(0,0,0,0.2);
+    background-image: linear-gradient(0deg, #ffffff 0%, #ffffff 100%);
+    padding: 18px 12px;
+    opacity: 0;
+    transition: opacity .5s;
+    z-index: 10;
+}
+
+.contacts__time {
+    color: #cb2376;
+    margin-bottom: 4px;
+}
+
+.contacts__dropdown-menu::after {
+    content: '';
+    position: absolute;
+    height: 34px;
+    right: 0;
+    left: 0;
+    bottom: 100%;
+}
+
+.contacts__dropdown-menu:before {
+    content: '';
+    bottom: 100%;
+    left: 83%;
+    position: absolute;
+    border: 13px solid transparent;
+    border-bottom: 9px solid #fff;
+}

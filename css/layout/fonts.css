@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+@font-face {
+    font-family: gothampro;
+    src: url(../../fonts/GothaProBol.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: gothampro;
+    src: url(../../fonts/GothaProLig.otf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: gothampro;
+    src: url(../../fonts/GothaProLigIta.otf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../../fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../../fonts/Roboto-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}

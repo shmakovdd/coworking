@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: gothampro;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__content {
+    flex: 1;
+    margin-bottom: 59px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul, li {
+list-style-type: none;
+}
+
+

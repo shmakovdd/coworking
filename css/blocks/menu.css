@@ -1,0 +1,260 @@
+
+.menu__list {
+    display: flex;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu__link {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #cb2376;
+}
+
+.menu--about-page .menu__link {
+    color: white;
+}
+
+.menu--about-page .menu__item--active .menu__link{
+    color: #cb2376;
+}
+
+.menu__item {
+    margin-right: 90px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 20px;
+}
+
+
+
+
+.menu__item--active .menu__link{
+    color: black;
+}
+
+.menu__item:hover .menu__link {
+    color: black;
+    transition: .4s;
+}
+
+.menu__item .menu__link--feed .menu__icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: .5s;
+    background: url(../../images/menu/css_sprites.png) -10px -10px;
+}
+ 
+.menu__item .menu__link--feed .menu__icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s;
+    background: url(../../images/menu/css_sprites.png) -50px -10px;
+}
+
+.menu__item--active .menu__link--feed .menu__icon::before {
+    opacity: 0;
+}
+
+.menu__item--active .menu__link--feed .menu__icon::after {
+    opacity: 1;
+}
+
+.menu__item:hover .menu__link--feed .menu__icon::before {
+    opacity: 0;
+}
+
+.menu__item:hover .menu__link--feed .menu__icon::after {
+    opacity: 1;
+}
+
+.menu__item .menu__link--reviews .menu__icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: .5s;
+    background: url(../../images/menu/css_sprites.png) -10px -49px;
+}
+ 
+.menu__item .menu__link--reviews .menu__icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s;
+    background: url(../../images/menu/css_sprites.png) -50px -49px;
+}
+
+.menu__item--active .menu__link--reviews .menu__icon::before {
+    opacity: 0;
+}
+
+.menu__item--active .menu__link--reviews .menu__icon::after {
+    opacity: 1;
+}
+
+.menu__item:hover .menu__link--reviews .menu__icon::before {
+    opacity: 0;
+}
+    
+.menu__item:hover .menu__link--reviews .menu__icon::after {
+    opacity: 1;
+}
+
+.menu__item .menu__link--tariffs .menu__icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: .5s;
+    background: url(../../images/menu/css_sprites.png) 29px -8px;
+}
+ 
+.menu__item .menu__link--tariffs .menu__icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s;
+    background: url(../../images/menu/css_sprites.png) 29px -44px;
+}
+
+.menu__item--active .menu__link--tariffs .menu__icon::before {
+    opacity: 0;
+}
+
+.menu__item--active .menu__link--tariffs .menu__icon::after {
+    opacity: 1;
+}
+
+.menu__item:hover .menu__link--tariffs .menu__icon::before {
+    opacity: 0;
+}
+    
+.menu__item:hover .menu__link--tariffs .menu__icon::after {
+    opacity: 1;
+}
+
+
+
+.menu--about-page .menu__item:hover .menu__link {
+    color: #cb2376;
+    transition: .4s;
+}
+
+.menu--about-page .menu__item .menu__link--feed .menu__icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/menu/css_sprites.png) -10px -10px;
+    opacity: 1;
+}
+
+.menu--about-page .menu__item:hover .menu__link--feed .menu__icon::before {
+    opacity: 1;
+} 
+
+.menu--about-page .menu__item--active .menu__link--feed .menu__icon::after {
+    opacity: 0;
+}
+
+.menu--about-page .menu__item .menu__link--reviews .menu__icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/menu/css_sprites-mainpage.png) -10px -10px;
+    opacity: 1;
+    transition: .4s;
+}
+
+.menu--about-page .menu__item .menu__link--reviews .menu__icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/menu/css_sprites.png) -10px 28px;
+    opacity: 0;
+    transition: .4s;
+}
+
+
+.menu--about-page .menu__item:hover .menu__link--reviews .menu__icon::before{
+    opacity: 0;
+}
+
+.menu--about-page .menu__item:hover .menu__link--reviews .menu__icon::after{
+    opacity: 1;
+}
+
+.menu--about-page .menu__item .menu__link--tariffs .menu__icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/menu/css_sprites-mainpage.png) 30px -10px;
+    opacity: 1;
+    transition: .5s;
+}
+
+.menu--about-page .menu__item .menu__link--tariffs .menu__icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/menu/css_sprites.png) 30px -10px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.menu--about-page .menu__item:hover .menu__link--tariffs .menu__icon::before {
+    opacity: 0;
+}
+
+.menu--about-page .menu__item:hover .menu__link--tariffs .menu__icon::after {
+    opacity: 1;
+}
