@@ -45,6 +45,7 @@
 .tariffs .content-block__list {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -22px -55px 0;
 }
 
 .tariffs .content-block__avatar {
